@@ -22,7 +22,7 @@ const Banner = () => {
                                 loop
                             />
                         </h2>
-                        <p class="py-4 text-white">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <p class="py-4 text-white font-serif">I'm Abu Jakaria, a highly skilled developer with strong confidence with quality and high performance web applications seeks the rules of Junior Software Developer at Javascript, React, Express JS and modern Javascript libraries.</p>
                         <div className='mb-4'>
                             <span className='text-2xl text-white mr-3 hover:text-primary transition ease-in-out duration-300'><a href="https://github.com/abujakariacse" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i></a></span>
                             <span className='text-white text-2xl mr-3'><a href="https://linkedin.com/in/abujakariacse" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i></a></span>
