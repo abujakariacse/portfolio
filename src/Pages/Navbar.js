@@ -3,10 +3,11 @@ import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = ({ children }) => {
     const menuItems = <>
-        <li><NavLink className='rounded-md h-10 mr-4 font-bold' to='/'>HOME</NavLink></li>
-        <li><NavLink className='rounded-md h-10 mr-4 font-bold' to='/about'>ABOUT</NavLink></li>
-        <li><NavLink className='rounded-md h-10 mr-4 font-bold' to='/appointment'>PORTFOLIO</NavLink></li>
-        <li><NavLink className='rounded-md h-10 mr-4 font-bold' to='/reviews'>CONTACT</NavLink></li>
+
+        <li><NavLink className='rounded-md h-10 mr-4 font-bold' to='about'>ABOUT</NavLink></li>
+        <li><NavLink className='rounded-md h-10 mr-4 font-bold' to='skill'>SKILL</NavLink></li>
+        <li><NavLink className='rounded-md h-10 mr-4 font-bold' to='portfolio'>PORTFOLIO</NavLink></li>
+        <li><NavLink className='rounded-md h-10 mr-4 font-bold' to='contact'>CONTACT</NavLink></li>
     </>;
     return (
         <div className="drawer drawer-end">
