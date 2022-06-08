@@ -1,5 +1,5 @@
 import React from 'react';
-import GetInTouch from '../images/getInTouch.svg';
+import EmailContact from '../images/email-contact.png';
 
 const Contact = () => {
     return (
@@ -8,8 +8,8 @@ const Contact = () => {
             <div className="divider border-t-2 w-24 mx-auto border-y-2 border-primary"><span></span></div>
 
             <div className="hero">
-                <div className="hero-content grid lg:grid-cols-2">
-                    <img className='rounded-lg' src={GetInTouch} alt=' img of programmer abu jakaria' />
+                <div className="hero-content grid lg:grid-cols-2 lg:gap-40">
+                    <img className='rounded-lg' src={EmailContact} alt=' img of programmer abu jakaria' />
                     <div>
                         <form action="https://formspree.io/f/xqknjqqz" method="POST" className='text-center mt-8'>
                             <input type="email" placeholder="Your Email" name="email" class="input text-white input-bordered border-slate-600 bg-neutral input-primary min-w-full mb-4" required />
