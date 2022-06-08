@@ -31,8 +31,8 @@ const Banner = () => {
                             <span className='text-white text-2xl mr-3'><a href="https://mail.google.com/mail/u/0/?fs=1&to=abujakariacse@gmail.com&tf=cm" target="_blank" rel="noreferrer"><i className="fa-solid fa-envelope"></i></a></span>
                         </div>
                         <div className='mt-6'>
-                            <button className="btn btn-primary text-white hover:bg-info">Get Resume</button>
-                            <button className="btn btn-primary text-white ml-4 hover:bg-info transition ease-in-out duration-300">About Me</button>
+                            <button className="btn btn-primary rounded text-white hover:bg-info">Get Resume</button>
+                            <button className="btn btn-primary rounded text-white ml-4 hover:bg-info transition ease-in-out duration-300">About Me</button>
                         </div>
                     </div>
                 </div>
