@@ -1,8 +1,15 @@
 import React from 'react';
 import BannerImg from '../images/banner.svg';
 import Typed from 'react-typed';
+import { saveAs } from "file-saver";
 
 const Banner = () => {
+    const saveFile = () => {
+        saveAs(
+            "https://drive.google.com/uc?export=download&id=1TrOOEuzUWmM-qYS94xkf6bZ0GZzJLN-N",
+            "Resume of Md. Abu Jakaria"
+        );
+    }
     return (
         <div>
             <div className="hero min-h-screen ">
@@ -31,8 +38,8 @@ const Banner = () => {
                             <span className='text-white text-2xl mr-3'><a href="https://mail.google.com/mail/u/0/?fs=1&to=abujakariacse@gmail.com&tf=cm" target="_blank" rel="noreferrer"><i className="fa-solid fa-envelope"></i></a></span>
                         </div>
                         <div className='mt-6'>
-                            <button className="btn btn-primary rounded text-white hover:bg-info">Get Resume</button>
-                            <button className="btn btn-primary rounded text-white ml-4 hover:bg-info transition ease-in-out duration-300">About Me</button>
+                            <button onClick={saveFile} className="btn btn-primary rounded text-white hover:bg-info">GET RESUME</button>
+                            <button className="btn btn-primary rounded text-white ml-4 hover:bg-info transition ease-in-out duration-300">ABOUT ME</button>
                         </div>
                     </div>
                 </div>
