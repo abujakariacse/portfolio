@@ -4,6 +4,9 @@ import './App.css';
 import Home from './Pages/Home';
 import Loader from './Pages/Loader';
 import Navbar from './Pages/Navbar';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 
 
