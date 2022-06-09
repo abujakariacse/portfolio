@@ -5,10 +5,10 @@ import { HashLink } from 'react-router-hash-link';
 const Navbar = ({ children }) => {
     const menuItems = <>
 
-        <li> <HashLink className='text-white rounded-md h-10 mr-4 font-bold' smooth to="#about">ABOUT</HashLink></li>
-        <li><HashLink className='text-white rounded-md h-10 mr-4 font-bold' smooth to="#skill">SKILL</HashLink></li>
-        <li><HashLink className='text-white rounded-md h-10 mr-4 font-bold' smooth to="#project">PORTFOLIO</HashLink></li>
-        <li><HashLink className='text-white rounded-md h-10 mr-4 font-bold' smooth to="#contact">CONTACT</HashLink></li>
+        <li> <HashLink className='rounded-md h-10 mr-4 font-bold' smooth to="#about">ABOUT</HashLink></li>
+        <li><HashLink className='rounded-md h-10 mr-4 font-bold' smooth to="#skill">SKILL</HashLink></li>
+        <li><HashLink className=' rounded-md h-10 mr-4 font-bold' smooth to="#project">PORTFOLIO</HashLink></li>
+        <li><HashLink className='rounded-md h-10 mr-4 font-bold' smooth to="#contact">CONTACT</HashLink></li>
     </>;
     return (
         <div className="drawer drawer-end">
@@ -33,7 +33,7 @@ const Navbar = ({ children }) => {
             </div>
             <div className="drawer-side ">
                 <label htmlFor="my-drawer-3" className="drawer-overlay"></label>
-                <ul className="menu p-4 overflow-y-auto w-80 bg-base-100 drw">
+                <ul className="menu text-black p-4 overflow-y-auto w-80 bg-base-100 drw">
                     {
                         menuItems
                     }

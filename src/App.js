@@ -13,7 +13,7 @@ function App() {
 
   const [loading, setLoading] = useState(true);
   window.addEventListener("load", (event) => {
-    setTimeout(() => { setLoading(false) }, 2500)
+    setTimeout(() => { setLoading(false) }, 1200)
   })
   return (
     <div>
