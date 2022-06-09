@@ -2,7 +2,7 @@ import React from 'react';
 
 const Project = () => {
     return (
-        <div className='text-center lg:text-left mb-16'>
+        <div className='text-center lg:text-left my-16' id='project'>
             < h2 className='text-white text-3xl text-center' >PORTFOLIO</h2 >
             <div className="divider border-t-2 w-24 mx-auto border-y-2 border-primary"><span></span></div>
 
@@ -18,7 +18,7 @@ const Project = () => {
                                     <i className="fa-solid fa-arrow-up-right-from-square"></i></a>
                             </span>
                             <span className='text-white text-3xl '>
-                                <a href="http://google.com" target='_blank' rel='noreferrer'><i className="fa-brands fa-github"></i>
+                                <a href="https://github.com/abujakariacse/express-car-part-client-side" target='_blank' rel='noreferrer'><i className="fa-brands fa-github"></i>
                                 </a>
                             </span>
                         </div>
@@ -46,7 +46,7 @@ const Project = () => {
                                     <i className="fa-solid fa-arrow-up-right-from-square"></i></a>
                             </span>
                             <span className='text-white text-3xl '>
-                                <a href="http://google.com" target='_blank' rel='noreferrer'><i className="fa-brands fa-github"></i>
+                                <a href="https://github.com/abujakariacse/ware-house-client-side" target='_blank' rel='noreferrer'><i className="fa-brands fa-github"></i>
                                 </a>
                             </span>
                             <div className='mt-3'>
@@ -75,7 +75,7 @@ const Project = () => {
                                     <i className="fa-solid fa-arrow-up-right-from-square"></i></a>
                             </span>
                             <span className='text-white text-3xl' target='_blank' rel='noreferrer'>
-                                <a href="http://google.com" ><i className="fa-brands fa-github"></i>
+                                <a href="https://github.com/abujakariacse/up-fit" ><i className="fa-brands fa-github"></i>
                                 </a>
                             </span>
 

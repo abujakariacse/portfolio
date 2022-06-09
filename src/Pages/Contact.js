@@ -2,7 +2,7 @@ import EmailContact from '../images/email-contact.png';
 
 const Contact = () => {
     return (
-        <div>
+        <div id='contact'>
             <h2 className='text-white text-3xl text-center'>GET IN TOUCH</h2>
             <div className="divider border-t-2 w-24 mx-auto border-y-2 border-primary"><span></span></div>
 

@@ -6,6 +6,7 @@ import Footer from './Footer';
 import Project from './Project';
 import Skill from './Skill';
 
+
 const Home = () => {
     return (
         <div>
