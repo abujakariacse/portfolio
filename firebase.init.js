@@ -1,17 +1,17 @@
+import { getAuth } from 'firebase/auth';
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getAuth } from 'firebase/auth';
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyDI3hduoTfK8Ux7uwiOUuV1jwz4gFYe5Ec",
-    authDomain: "luxary-living.firebaseapp.com",
-    projectId: "luxary-living",
-    storageBucket: "luxary-living.appspot.com",
-    messagingSenderId: "781004373148",
-    appId: "1:781004373148:web:1ef273e8b02d6f49abc159"
+    apiKey: "AIzaSyAEHIk2P2uZtYjPORxcTtuFqq33XTQzNSA",
+    authDomain: "abujakaria-cse.firebaseapp.com",
+    projectId: "abujakaria-cse",
+    storageBucket: "abujakaria-cse.appspot.com",
+    messagingSenderId: "180308110780",
+    appId: "1:180308110780:web:3674a9334c3151cf358fb9"
 };
 
 // Initialize Firebase

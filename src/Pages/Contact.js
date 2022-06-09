@@ -1,5 +1,5 @@
 import EmailContact from '../images/email-contact.png';
-import emailjs from "emailjs-com"
+import emailjs from "emailjs-com";
 import Swal from 'sweetalert2';
 const Contact = () => {
     const sendEmail = e => {
