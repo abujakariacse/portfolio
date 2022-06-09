@@ -3,6 +3,9 @@ import BannerImg from '../images/banner.svg';
 import Typed from 'react-typed';
 import { saveAs } from "file-saver";
 import { HashLink } from 'react-router-hash-link';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 const Banner = () => {
     const saveFile = () => {
         saveAs(
@@ -54,10 +57,10 @@ const Banner = () => {
                             data-aos-duration="1100"
                             className='mb-4'>
                             <span className='text-2xl text-white mr-3 hover:text-primary transition ease-in-out duration-300'><a href="https://github.com/abujakariacse" target="_blank" rel="noreferrer"><i className="fa-brands fa-github"></i></a></span>
-                            <span className='text-white text-2xl mr-3'><a href="https://linkedin.com/in/abujakariacse" target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin"></i></a></span>
-                            <span className='text-white text-2xl mr-3'><a href="https://twitter.com/abujakariacse" target="_blank" rel="noreferrer"><i className="fa-brands fa-twitter"></i></a></span>
-                            <span className='text-white text-2xl mr-3'><a href="https://facebook.com/abujakariacse" target="_blank" rel="noreferrer"><i className="fa-brands fa-facebook"></i></a></span>
-                            <span className='text-white text-2xl mr-3'><a href="https://mail.google.com/mail/u/0/?fs=1&to=abujakariacse@gmail.com&tf=cm" target="_blank" rel="noreferrer"><i className="fa-solid fa-envelope"></i></a></span>
+                            <span className='text-white text-2xl mr-3 hover:text-primary transition ease-in-out duration-300'><a href="https://linkedin.com/in/abujakariacse" target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin"></i></a></span>
+                            <span className='text-white text-2xl mr-3 hover:text-primary transition ease-in-out duration-300'><a href="https://twitter.com/abujakariacse" target="_blank" rel="noreferrer"><i className="fa-brands fa-twitter"></i></a></span>
+                            <span className='text-white text-2xl mr-3 hover:text-primary transition ease-in-out duration-300'><a href="https://facebook.com/abujakariacse" target="_blank" rel="noreferrer"><i className="fa-brands fa-facebook"></i></a></span>
+                            <span className='text-white text-2xl mr-3 hover:text-primary transition ease-in-out duration-300'><a href="https://mail.google.com/mail/u/0/?fs=1&to=abujakariacse@gmail.com&tf=cm" target="_blank" rel="noreferrer"><i className="fa-solid fa-envelope"></i></a></span>
                         </div>
                         <div
                             data-aos="fade-right"

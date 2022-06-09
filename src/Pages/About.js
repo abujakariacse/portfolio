@@ -2,7 +2,6 @@ import PortfolioImg from '../images/portfolio-img.jpg';
 import { saveAs } from "file-saver";
 import { HashLink } from 'react-router-hash-link';
 
-
 const About = () => {
     const saveFile = () => {
         saveAs(

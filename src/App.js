@@ -4,13 +4,13 @@ import './App.css';
 import Home from './Pages/Home';
 import Loader from './Pages/Loader';
 import Navbar from './Pages/Navbar';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-AOS.init();
+
+
 
 
 
 function App() {
+
   const [loading, setLoading] = useState(true);
   window.addEventListener("load", (event) => {
     setTimeout(() => { setLoading(false) }, 2500)
