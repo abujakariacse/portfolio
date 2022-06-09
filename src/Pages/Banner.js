@@ -3,9 +3,7 @@ import BannerImg from '../images/banner.svg';
 import Typed from 'react-typed';
 import { saveAs } from "file-saver";
 import { HashLink } from 'react-router-hash-link';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-AOS.init();
+
 const Banner = () => {
     const saveFile = () => {
         saveAs(

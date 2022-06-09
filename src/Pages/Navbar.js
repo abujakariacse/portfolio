@@ -9,6 +9,7 @@ const Navbar = ({ children }) => {
         <li><HashLink className='rounded-md h-10 mr-4 font-bold' smooth to="#skill">SKILL</HashLink></li>
         <li><HashLink className=' rounded-md h-10 mr-4 font-bold' smooth to="#project">PORTFOLIO</HashLink></li>
         <li><HashLink className='rounded-md h-10 mr-4 font-bold' smooth to="#contact">CONTACT</HashLink></li>
+        <li><Link className='rounded-md h-10 mr-4 font-bold' smooth to="/blogs">BLOGS</Link></li>
     </>;
     return (
         <div className="drawer drawer-end">
