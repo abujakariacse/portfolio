@@ -1,4 +1,7 @@
 import React from 'react';
+import Project1Img from '../images/project-1.png';
+import Project2Img from '../images/project-2.png';
+import Project3Img from '../images/project-3.png';
 
 const Project = () => {
     return (
@@ -8,7 +11,9 @@ const Project = () => {
 
             <div className='grid lg:grid-cols-3 lg:gap-40 gap-12 lg:mx-16 mt-16'>
                 <div className="card w-96 text-white border-2 border-slate-700">
-                    <figure><img src="https://api.lorem.space/image/shoes?w=400&h=225" alt="Shoes" /></figure>
+                    <div className='card-img'>
+                        <figure><img className='project-img' src={Project1Img} alt="Shoes" /></figure>
+                    </div>
                     <div className="card-body">
                         <h2 className="card-title">Express Car Services</h2>
                         <p className='my-3'>A car parts selling application where user can easily buy car parts with few clicks</p>
@@ -36,7 +41,9 @@ const Project = () => {
                     </div>
                 </div>
                 <div className="card w-96 text-white border-2 border-slate-600">
-                    <figure><img src="https://api.lorem.space/image/shoes?w=400&h=225" alt="Shoes" /></figure>
+                    <div className='card-img'>
+                        <figure><img className='project-img' src={Project2Img} alt="Shoes" /></figure>
+                    </div>
                     <div className="card-body">
                         <h2 className="card-title">WareHouse</h2>
                         <p className='my-3'>Warehouse's application, where user can buy and seller can stock more product.</p>
@@ -65,7 +72,9 @@ const Project = () => {
                     </div>
                 </div>
                 <div className="card w-96 text-white border-2 border-slate-600">
-                    <figure><img src="https://api.lorem.space/image/shoes?w=400&h=225" alt="Shoes" /></figure>
+                    <div className='card-img'>
+                        <figure><img className='project-img' src={Project3Img} alt="Shoes" /></figure>
+                    </div>
                     <div className="card-body">
                         <h2 className="card-title">Upfit (Gym Trainer)</h2>
                         <p className='my-3'>Upfit is the one-stop solution if you want to make fit yourself. where a trainer provide a gym service </p>

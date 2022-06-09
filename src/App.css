@@ -3,6 +3,38 @@
   background-color: #131f33;
 }
 
+.card {
+  height: 600px;
+}
+
+.card-body {
+  height: 300px;
+  z-index: 4;
+}
+
+.card-img {
+  height: 300px;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.card-img img {
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.card-img img:hover {
+  transform: translateY(-80%);
+
+}
+
+.card img {
+  transition: transform 3s ease-in-out;
+}
+
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
