@@ -5,7 +5,7 @@ import Loader from './Loader';
 
 const Details = () => {
     const { id } = useParams();
-    const { data: project, isLoading } = useQuery('project', () => fetch(`http://localhost:5000/project/${id}`).then(res => res.json()))
+    const { data: project, isLoading } = useQuery('project', () => fetch(`https://shrouded-oasis-53969.herokuapp.com/project/${id}`).then(res => res.json()))
     console.log(project)
     if (isLoading) {
         return <Loader></Loader>

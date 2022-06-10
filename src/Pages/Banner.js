@@ -13,7 +13,7 @@ const Banner = () => {
     }
     return (
         <div>
-            <div className="hero min-h-screen ">
+            <div className="hero min-h-screen text-center">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <img
                         className='lg:w-2/4' src={BannerImg} alt='' />
