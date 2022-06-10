@@ -7,7 +7,7 @@ const Skill = () => {
             < h2 className='text-white text-3xl text-center' > MY SKILLS</h2 >
             <div className="divider border-t-2 w-24 mx-auto border-y-2 border-primary"><span></span></div>
 
-            <div className='grid lg:grid-cols-3 lg:gap-48 lg:mx-40 ml-10 lg:mt-16 mt-8'>
+            <div className='grid lg:grid-cols-3 lg:gap-48 lg:mx-40 mx-5 lg:mt-16 mt-8'>
                 <div
                     className='w-80'>
                     <h2 className='text-white'>HTML</h2>

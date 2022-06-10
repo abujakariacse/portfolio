@@ -63,7 +63,7 @@ const Details = () => {
                 </div>
             </div>
             <div className='grid lg:grid-cols-2 mt-12 lg:gap-12 gap-5 lg:mx-24 mb-16'>
-                <div className='rounded-lg'>
+                <div className='detail-img-viewer rounded-lg'>
                     <img className='rounded-md' src={images[1]} alt="" />
                 </div>
                 <div className='detail-img-viewer rounded-lg'>

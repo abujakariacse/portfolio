@@ -13,13 +13,13 @@ const Banner = () => {
     }
     return (
         <div>
-            <div className="hero min-h-screen text-center">
+            <div className="hero min-h-screen text-center lg:text-left">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <img
                         className='lg:w-2/4' src={BannerImg} alt='' />
                     <div>
                         <div>
-                            <h1 className="text-2xl font-bold text-white mb-3">Hey I'm</h1>
+                            <h1 className="text-xl  font-bold text-white mb-3">Hey I'm</h1>
                             <h1 className="text-4xl lg:text-5xl font-bold text-white">Abu Jakaria</h1>
                             <h2 className='text-2xl pt-3 font-bold text-primary'>
                                 <Typed
