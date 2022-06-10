@@ -4,16 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
-
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-AOS.init();
+import { QueryClient, QueryClientProvider } from 'react-query';
+const queryClient = new QueryClient();
 const container = document.getElementById('root');
 const root = createRoot(container);
 root.render(<React.StrictMode>
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>
+  <QueryClientProvider client={queryClient}>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </QueryClientProvider>
 </React.StrictMode>);
 
 

@@ -4,11 +4,11 @@
 }
 
 .card {
-  height: 600px;
+  height: 700px;
 }
 
 .card-body {
-  height: 300px;
+  height: 400px;
   z-index: 4;
 }
 
@@ -32,6 +32,44 @@
 .card img {
   transition: transform 3s ease-in-out;
 }
+
+@media only screen and (min-width:992px) and (max-width: 1600px) {
+  .detail-page-img-div {
+    height: 500px;
+    overflow: hidden;
+  }
+
+  .detail-page-img-div img:hover {
+    transform: translateY(-50%);
+  }
+
+  .detail-page-img-div img {
+    width: 100%;
+    overflow: hidden;
+    transition: transform 2.5s ease-in-out;
+
+  }
+
+  .detail-img-viewer {
+    height: 480px;
+    overflow: hidden;
+  }
+
+  .detail-img-viewer img:hover {
+    transform: translateY(-25%);
+  }
+
+  .detail-img-viewer img {
+    width: 100%;
+    overflow: hidden;
+    transition: transform 2s ease-in-out;
+  }
+
+}
+
+
+
+
 
 
 
