@@ -3,10 +3,10 @@ import { saveAs } from "file-saver";
 import { HashLink } from 'react-router-hash-link';
 
 const About = () => {
-    const saveFile = () => {
+    const saveFile = e => {
+        e.preventDefault();
         saveAs(
-            "https://drive.google.com/uc?export=download&id=1TrOOEuzUWmM-qYS94xkf6bZ0GZzJLN-N",
-            "Resume of Md. Abu Jakaria"
+            "https://drive.google.com/uc?export=download&id=1C-6kwPGqOCsF8_Qv7c-5JDtQfAItS6ER"
         );
     }
     return (

@@ -1,0 +1,67 @@
+[
+  {
+    "projectName":"Express Car Services",
+    "description":"A car parts selling application where user can easily buy car parts with few clicks.",
+    "details":[
+      "User can buy a product if he/she login",
+      "User can see their profile and order on dashboard page.",
+      "Admin and user has different dashboard Where admin can manage all user, all order, make admin, and also can add product to the website.",
+      "User have a route where they can add review about product or website.",
+      "Used JSON Web Token (JWT) to the server side to ensure more security from stealing data."
+      ],
+  "images":[
+    "https://i.ibb.co/MDJDPjj/screencapture-assignment-12-fb182-web-app-2022-06-09-06-05-56.png",
+    "https://i.ibb.co/ZNZZ06Z/project1-dashboard.png",
+    "https://i.ibb.co/b2Dbd1y/project1-purchase.png"
+    ],
+  "techlology":[
+  "REACTJS","TAILWINDCSS","FIREBASE","EXPRESSJS","JWT","MONGODB","HEROKU"
+  ],
+  "liveLink":"https://assignment-12-fb182.web.app/",
+  "clientSideCodeLink":"https://github.com/abujakariacse/express-car-part-client-side",
+  "serverSideCodeLink":"https://github.com/abujakariacse/express-car-part-server"
+  },
+  {
+    "projectName":"WareHouse",
+    "description":"Warehouse's application, where user can buy and seller can stock more product.",
+    "details":[
+      "User can see all product on Home route.",
+      "Admin can update and delete product",
+      "Admin can add product by clicking on addfruits route",
+      "On My Items route user can see what he/she added on the website",
+      "On Blogs section everyone can see blogs."
+      ],
+  "images":[
+    "https://i.ibb.co/h7FqxXs/project-2.png",
+    "https://i.ibb.co/x1HFRGM/project2-addfruits.png",
+    "https://i.ibb.co/pXzNnZJ/project2-inventory.png"
+    ],
+  "techlology":[
+  "REACTJS","TAILWINDCSS","FIREBASE","EXPRESSJS","JWT","MONGODB","HEROKU"
+  ],
+  "liveLink":"https://wire-house-9427b.web.app/",
+  "clientSideCodeLink":"https://github.com/abujakariacse/ware-house-client-side",
+  "serverSideCodeLink":"https://github.com/abujakariacse/ware-house-server"
+  },
+  {
+    "projectName":"Upfit (Gym Trainer)",
+    "description":"Upfit is a gym trainer website where user can see the what he/she provide",
+    "details":[
+      "User can login to the website by email-password or google sign in",
+      "User can reset password if he/see forgot the password",
+      "User can book a service by clicking on add button",
+      "On blog route user can see the blogs",
+      "On about route user can see about the trainer"
+      ],
+  "images":[
+    "https://i.ibb.co/KX6bZ0W/project3-home.png",
+    "https://i.ibb.co/MRJHgX7/project3-checkout.png",
+    "https://i.ibb.co/ZTdGkq1/project3-blogs.png"
+    ],
+  "techlology":[
+  "REACTJS","BOOTSTRAP","CSS3","FIREBASE"
+  ],
+  "liveLink":"https://assignment-ten-a33e4.web.app/",
+  "clientSideCodeLink":"https://github.com/abujakariacse/up-fit"
+  }
+]
